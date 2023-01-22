@@ -34,16 +34,17 @@ function contact(event) {
 
   emailjs
     .sendForm(
-      "service_ggtkrak",
+      "service_9idhwv7",
       "template_d041ved",
       event.target,
-      "GgSM4ixbBDbqPcaHb"
+      "pyw62vvP6CPh3VehB"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
       success.classList += " modal__overlay--visible";
     })
-    .catch(() => {
+    .catch((e) => {
+      console.log(e);
       loading.classList.remove("modal__overlay--visible");
       alert(
         "The email service is temporarily unavailable. Please contact me directly at Misadahali10@gmail.com "
