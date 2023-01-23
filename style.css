@@ -192,9 +192,9 @@ nav,
 }
 
 .header__para {
-  font-size: 22px;
-  line-height: 2;
-  max-width: 600px;
+  font-size: 17px;
+  line-height: 3;
+  max-width: 680px;
 }
 
 .social__list {
